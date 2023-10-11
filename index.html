@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Dr Gianluca Ascolani, PhD</title>
+    <meta name="description" content="Research activities and CV">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo.jpg">
+      <h1>Dr Gianluca Ascolani, PhD</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#curriculum vitae">curriculum vitae</a></li>
+        <li><a href="#articles">articles</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              Quantized Length Differential Expression
+            </p>
+          </div>
+          
+          <div id="articles" class="content-region hide">
+            <h2>Articles</h2>
+            
+            <br>
+            <h3>LACE 2.0: an R tool for the inference and visualization of longitudinal cancer evolution</h3>
+            <br>
+            LACE 2.0 is a new release of the LACE R Bioconductor package. LACE 2.0 is capable of performing clonal evolution analyses for single-cell sequencing data including longitudinal experiments. LACE 2.0 allows to annotate variants and retrieve the relevant mutations interactively based on user-defined filtering criteria; it infers the maximum likelihood clonal tree, cell matrix attachment and false positive/negative rates using boolean matrix factorization. Furthermore, it generates the longitudinal clonal tree. Finally, LACE 2.0 allows to investigate cancer clonal evolution under different experimental conditions and the occurrence of single mutations which can be queried via ensembl database.
+            A detailed vignette on LACE 2.0 is provided here: <a href="https://bimib-disco.github.io/LACE/articles/3_LACE_interface.html">3_LACE_interface.html</a>
+            <br>
+            <br>
+            <object data="./data/LACE22.pdf" width="700" height="800" type='application/pdf'></object>
+            <br>
+            <br>
+            <br>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              gianluca.ascolani#unimib.it 
+            </p>
+          </div>
+          
+          <div id="curriculum vitae" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              Research associate at the University of Milano Bicocca.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      Footer region
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
